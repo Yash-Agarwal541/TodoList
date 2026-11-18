@@ -1,0 +1,1 @@
+Test the application against all approved acceptance criteria.
