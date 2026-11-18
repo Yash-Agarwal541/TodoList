@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="app">
+    <h1 class="app__title">TaskFlow</h1>
+
+    <form id="add-form" class="add-form">
+      <input
+        type="text"
+        id="task-input"
+        class="add-form__input"
+        placeholder="Add a new task..."
+        autocomplete="off"
+      >
+      <button type="submit" class="add-form__button">Add</button>
+    </form>
+
+    <div class="filters" id="filters">
+      <button type="button" class="filters__button is-active" data-filter="all">All</button>
+      <button type="button" class="filters__button" data-filter="active">Active</button>
+      <button type="button" class="filters__button" data-filter="completed">Completed</button>
+    </div>
+
+    <ul id="task-list" class="task-list"></ul>
+
+    <p id="empty-state" class="empty-state" hidden>No tasks yet. Add one above.</p>
+  </main>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>

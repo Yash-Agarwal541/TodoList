@@ -1,0 +1,1 @@
+Review the approved requirements and architecture. Identify gaps and risks.

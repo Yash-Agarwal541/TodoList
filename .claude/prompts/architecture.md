@@ -1,0 +1,1 @@
+Design the frontend architecture using approved requirements.

@@ -1,0 +1,1 @@
+Analyze Jira story TAS-1 and prepare project requirements.
